@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PaginasAmarillas</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_find">Encontrar</string>
+    <string name="title_location">Cerca de mí</string>
+    <string name="title_configurations">Ajustes</string>
+    <string name="title_AR">R. Aumentada</string>
+    <string name="title_search">Qué busca:</string>
+    <string name="title_where">Donde:</string>
+    <string name="content_description_image">TODO</string>
+    <string name="label_button_cities">Ciudades</string>
+    <string name="label_current_location">Usted se encuentra en: Lima, Perú</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
