@@ -12,11 +12,23 @@ public class Empresa {
     private String telefono;
     private String correo;
     private String url;
-    private int logo;
+    private String logo;
     private String info;
 
     public Empresa(){
 
+    }
+
+    public Empresa(int id, String rubro, String nombre, String direccion, String telefono, String correo, String url, String logo, String info) {
+        this.id = id;
+        this.rubro = rubro;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+        this.correo = correo;
+        this.url = url;
+        this.logo = logo;
+        this.info = info;
     }
 
     public int getId() {
@@ -75,11 +87,11 @@ public class Empresa {
         this.url = url;
     }
 
-    public int getLogo() {
+    public String getLogo() {
         return logo;
     }
 
-    public void setLogo(int logo) {
+    public void setLogo(String logo) {
         this.logo = logo;
     }
 

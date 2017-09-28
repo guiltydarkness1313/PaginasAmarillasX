@@ -2,15 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorGray"
     tools:context="com.shibuyaxpress.paginasamarillas.TabResultadoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/text"
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reciclador_resultados"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical|center_horizontal"
-        android:text="Resultados"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
+        android:scrollbars="vertical"/>
 </FrameLayout>

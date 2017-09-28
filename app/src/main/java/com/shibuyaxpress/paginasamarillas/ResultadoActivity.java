@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TabHost;
+import android.widget.TextView;
 
 public class ResultadoActivity extends AppCompatActivity {
 
@@ -16,7 +17,9 @@ public class ResultadoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_resultado);
         FragmentTabHost mtabHost=(FragmentTabHost)findViewById(R.id.tab_host);
         mtabHost.setup(ResultadoActivity.this,getSupportFragmentManager(),android.R.id.tabcontent);
-        mtabHost.addTab(mtabHost.newTabSpec("First Tab").setIndicator("Resultados"), new TabResultadoFragment().getClass(), null);
-        mtabHost.addTab(mtabHost.newTabSpec("Second Tab").setIndicator("Relacionados"), new TabRelacionadosFragment().getClass(), null);
+        mtabHost.addTab(mtabHost.newTabSpec("First Tab").setIndicator("Resultados"), TabResultadoFragment.class, null);
+        mtabHost.addTab(mtabHost.newTabSpec("Second Tab").setIndicator("Relacionados"),TabRelacionadosFragment.class, null);
     }
+
+
 }

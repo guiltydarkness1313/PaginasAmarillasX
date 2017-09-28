@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shibuyaxpress.paginasamarillas">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,10 +21,8 @@
         <activity
             android:name=".activities.MenuActivity"
             android:label="@string/title_activity_menu" />
-        <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2" />
-        <activity android:name=".ResultadoActivity"></activity>
+        <activity android:name=".ResultadoActivity" />
+        <activity android:name=".DetallesActivity"></activity>
     </application>
 
 </manifest>

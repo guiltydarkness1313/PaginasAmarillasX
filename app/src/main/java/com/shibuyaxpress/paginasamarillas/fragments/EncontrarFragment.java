@@ -14,8 +14,10 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.shibuyaxpress.paginasamarillas.Busqueda;
 import com.shibuyaxpress.paginasamarillas.R;
 import com.shibuyaxpress.paginasamarillas.ResultadoActivity;
+import com.shibuyaxpress.paginasamarillas.TabResultadoFragment;
 
 
 /**
@@ -58,6 +60,9 @@ public class EncontrarFragment extends Fragment {
         String texto=busqueda.getText().toString();
         launcher.putExtra("keywords",texto);
         startActivity(launcher);
+        //////////////////
+        Busqueda.getInstance().setKey(texto);
+
     }
 
 }
