@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -35,6 +35,7 @@
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:layout_below="@id/detcardbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/card_resultado"
@@ -56,29 +57,34 @@
     </android.support.v7.widget.CardView>
 
     <android.support.v4.app.FragmentTabHost
+        android:layout_below="@id/card_resultado"
+        android:layout_above="@id/card_acciones"
         android:id="@+id/tab_host"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp">
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="?attr/colorPrimary" >
+                android:background="?attr/colorPrimary">
 
             </TabWidget>
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content">
+
+            </FrameLayout>
+
         </LinearLayout>
 
 
@@ -86,4 +92,5 @@
 
 
 
-</LinearLayout>
+
+</RelativeLayout>

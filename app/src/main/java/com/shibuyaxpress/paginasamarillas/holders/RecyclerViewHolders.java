@@ -38,11 +38,14 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder {
                 Empresa emp=(Empresa)v.getTag();
                 Intent launcher=new Intent(v.getContext(),DetallesActivity.class);
                 launcher.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                //int id, String rubro, String nombre, String direccion, String telefono, String correo, String url, String logo, String info
                 launcher.putExtra("nombre",emp.getNombre());
                 launcher.putExtra("imagen",emp.getLogo());
                 launcher.putExtra("info",emp.getInfo());
                 launcher.putExtra("telefono",emp.getTelefono());
                 launcher.putExtra("direccion",emp.getDireccion());
+                launcher.putExtra("url",emp.getUrl());
+                launcher.putExtra("correo",emp.getCorreo());
                 v.getContext().startActivity(launcher);
             }
         });

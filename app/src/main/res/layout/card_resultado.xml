@@ -54,7 +54,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/bg_admin" />
+                app:srcCompat="@drawable/ic_wallpaper_black_24dp" />
 
             <ImageView
                 android:id="@+id/img_continuar"
