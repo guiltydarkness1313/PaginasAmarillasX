@@ -1,4 +1,4 @@
-package com.shibuyaxpress.paginasamarillas;
+package com.shibuyaxpress.paginasamarillas.fragments;
 
 
 import android.os.Bundle;
@@ -11,6 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.shibuyaxpress.paginasamarillas.R;
+import com.shibuyaxpress.paginasamarillas.adapters.RecyclerViewAdapter;
+import com.shibuyaxpress.paginasamarillas.models.Busqueda;
 import com.shibuyaxpress.paginasamarillas.models.Empresa;
 
 import java.util.ArrayList;

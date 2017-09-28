@@ -5,19 +5,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
-import com.shibuyaxpress.paginasamarillas.Busqueda;
+import com.shibuyaxpress.paginasamarillas.models.Busqueda;
 import com.shibuyaxpress.paginasamarillas.R;
-import com.shibuyaxpress.paginasamarillas.ResultadoActivity;
-import com.shibuyaxpress.paginasamarillas.TabResultadoFragment;
+import com.shibuyaxpress.paginasamarillas.activities.ResultadoActivity;
 
 
 /**

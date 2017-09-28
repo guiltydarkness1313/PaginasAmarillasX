@@ -1,12 +1,13 @@
-package com.shibuyaxpress.paginasamarillas;
+package com.shibuyaxpress.paginasamarillas.holders;
 
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.shibuyaxpress.paginasamarillas.R;
+import com.shibuyaxpress.paginasamarillas.activities.DetallesActivity;
 import com.shibuyaxpress.paginasamarillas.models.Empresa;
 
 /**
@@ -20,7 +21,7 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder {
     public TextView direccionEmpresa;
     public TextView telefonoEmpresa;
     public TextView txtresultado;
-    View root;
+    public View root;
     public RecyclerViewHolders(View itemView) {
         super(itemView);
         //realizar un lcicc

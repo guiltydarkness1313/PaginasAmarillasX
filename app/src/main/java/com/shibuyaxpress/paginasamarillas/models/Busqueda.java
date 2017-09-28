@@ -1,4 +1,4 @@
-package com.shibuyaxpress.paginasamarillas;
+package com.shibuyaxpress.paginasamarillas.models;
 
 /**
  * Created by paulf on 28-Sep-17.

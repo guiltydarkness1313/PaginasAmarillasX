@@ -1,4 +1,4 @@
-package com.shibuyaxpress.paginasamarillas;
+package com.shibuyaxpress.paginasamarillas.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.shibuyaxpress.paginasamarillas.R;
+import com.shibuyaxpress.paginasamarillas.holders.RecyclerViewHolders;
 import com.shibuyaxpress.paginasamarillas.models.Empresa;
 
 import java.util.List;

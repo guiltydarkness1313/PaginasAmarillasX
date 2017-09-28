@@ -21,8 +21,8 @@
         <activity
             android:name=".activities.MenuActivity"
             android:label="@string/title_activity_menu" />
-        <activity android:name=".ResultadoActivity" />
-        <activity android:name=".DetallesActivity"></activity>
+        <activity android:name=".activities.ResultadoActivity" />
+        <activity android:name=".activities.DetallesActivity"></activity>
     </application>
 
 </manifest>

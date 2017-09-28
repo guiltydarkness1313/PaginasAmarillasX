@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorGray"
     android:orientation="vertical"
-    tools:context="com.shibuyaxpress.paginasamarillas.DetallesActivity">
+    tools:context="com.shibuyaxpress.paginasamarillas.activities.DetallesActivity">
 
     <android.support.v7.widget.CardView
         android:id="@+id/detcardbar"
